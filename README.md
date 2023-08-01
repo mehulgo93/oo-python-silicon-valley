@@ -1,13 +1,11 @@
-# Object Relations Lab 
+# Object Relations Lab
 
 Welcome to Silicon Valley! For this assignment, our domain is the startup world! We have three models - `Startup`, `VentureCapitalist`, and `FundingRound`. A `Startup` has many `VentureCapitalist`s through `FundingRound`s.
-
 
 ## Setup
 
 `pipenv install` will make sure we have ipdb included in our environment.  
-`pipenv shell` allows us access to that environment.  
-
+`pipenv shell` allows us access to that environment.
 
 ## Topics
 
@@ -19,13 +17,14 @@ Welcome to Silicon Valley! For this assignment, our domain is the startup world!
 
 ## Notes
 
-Your goal is to build out all of the functionality listed in the deliverables. 
+Your goal is to build out all of the functionality listed in the deliverables.
 
 We've provided you with a console that you can use to test your code. To enter a console session, run `python debug.py` from the command line. You'll be able to test out the methods that you write here. Take a look at that file to see how you can pre-define variables and create object instances, rather than manually doing it in every single console session.
 
 **Remember!** This is an exercise without tests. You cannot run `pytest`. You'll need to create your own sample instances for testing purposes. Make sure your associations and methods work in the console before submitting.
 
 ## A note about notation
+
 When you see a '`#`', this means the functionality will be related to the instance, a '`.`', the class.
 
 ## Deliverables
