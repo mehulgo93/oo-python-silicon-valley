@@ -40,6 +40,7 @@ class Startup:
          return list(set([startup.domain for startup in cls.all_startups]))
       
       def sign_contract(self, venture_capitalist, funding_type, investment):
+         from .funding_round import FundingRound
          funding_round = FundingRound(self, venture_capitalist, funding_type, investment)
          self.funding_rounds.append(funding_round)
 

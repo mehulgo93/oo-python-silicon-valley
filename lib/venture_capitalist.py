@@ -18,6 +18,7 @@ class VentureCapitalist:
 
 
     def offer_contract(self, startup, funding_type, investment):
+        from .funding_round import FundingRound
         funding_round = FundingRound(startup, self, funding_type, investment)
         self.funding_rounds.append(funding_round)
 
